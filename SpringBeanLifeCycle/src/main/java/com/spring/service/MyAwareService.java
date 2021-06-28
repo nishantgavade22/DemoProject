@@ -1,4 +1,4 @@
-package com.journaldev.spring.service;
+package com.spring.service;
 
 import java.util.Arrays;
 

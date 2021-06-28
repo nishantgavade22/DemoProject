@@ -1,9 +1,8 @@
-package com.journaldev.spring.main;
+package com.spring.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.journaldev.spring.service.EmployeeService;
-import com.journaldev.spring.service.MyEmployeeService;
+import com.spring.service.MyEmployeeService;
 
 public class SpringMain {
 
@@ -13,8 +12,6 @@ public class SpringMain {
 		System.out.println("Spring Context initialized");
 		
 		MyEmployeeService service = ctx.getBean("myEmployeeService", MyEmployeeService.class);
-		//EmployeeService service = ctx.getBean("employeeService", EmployeeService.class);
-
 		System.out.println("Bean retrieved from Spring Context");
 		
 		System.out.println("Employee Name="+service.getEmployee().getName());

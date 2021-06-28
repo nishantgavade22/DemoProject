@@ -1,6 +1,6 @@
-package com.journaldev.spring.service;
+package com.spring.service;
 
-import com.journaldev.spring.bean.Employee;
+import com.spring.bean.Employee;
 
 public class MyEmployeeService{
 

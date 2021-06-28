@@ -1,8 +1,8 @@
-package com.journaldev.spring.main;
+package com.spring.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.journaldev.spring.service.MyAwareService;
+import com.spring.service.MyAwareService;
 
 public class SpringAwareMain {
 
